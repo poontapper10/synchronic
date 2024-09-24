@@ -10,7 +10,7 @@ header {
     background-color: royalblue;
     color: white;
     padding: 20px;
-    text-align: left;
+    text-align: right;
 }
 
 nav ul {
@@ -52,4 +52,11 @@ footer {
     padding: 10px;
     background-color: royalblue;
     color: white;
+}
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* This maintains the aspect ratio */
+    margin-right: 20px; /* Adds some space between the logo and the text */
+    float: left; /* Float the logo to the left */
 }
