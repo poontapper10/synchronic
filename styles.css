@@ -60,3 +60,46 @@ footer {
     margin-right: 20px; /* Adds some space between the logo and the text */
     float: left; /* Float the logo to the left */
 }
+
+.contact-form {
+    max-width: 400px; /* Restrict the form width */
+    margin: 0 auto; /* Center the form */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the fields take up the full form width */
+}
+
+.contact-form textarea {
+    height: auto; /* Expand textarea */
+    resize: vertical; /* Allow resizing vertically */
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
